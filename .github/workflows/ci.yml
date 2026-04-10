@@ -1,14 +1,14 @@
 name: Build and Test Java App
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+ push:
+   branches: [ main ]
+ pull_request:
+   branches: [ main ]
 
 jobs:
-  build-test:
-    runs-on: ubuntu-latest
+ build-test:
+   runs-on: ubuntu-latest
 
    steps:
    - name: Checkout code
