@@ -32,7 +32,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ecommerce-java-app:latest
+          tags: ismayil99/ecommerce-java-app:latest
 
       - name: Azure Login
         uses: azure/login@v2
